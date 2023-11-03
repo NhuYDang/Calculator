@@ -34,7 +34,7 @@
             this.txtB = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtKQ = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btCong = new System.Windows.Forms.Button();
             this.btTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -92,16 +92,16 @@
             this.txtKQ.Size = new System.Drawing.Size(200, 26);
             this.txtKQ.TabIndex = 5;
             // 
-            // button1
+            // btCong
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(242, 169);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(73, 29);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Cộng";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btCong.Location = new System.Drawing.Point(242, 169);
+            this.btCong.Name = "btCong";
+            this.btCong.Size = new System.Drawing.Size(73, 29);
+            this.btCong.TabIndex = 6;
+            this.btCong.Text = "Cộng";
+            this.btCong.UseVisualStyleBackColor = true;
+            this.btCong.Click += new System.EventHandler(this.button1_Click);
             // 
             // btTru
             // 
@@ -120,7 +120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 225);
             this.Controls.Add(this.btTru);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btCong);
             this.Controls.Add(this.txtKQ);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtB);
@@ -142,7 +142,7 @@
         private System.Windows.Forms.TextBox txtB;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtKQ;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btCong;
         private System.Windows.Forms.Button btTru;
     }
 }
